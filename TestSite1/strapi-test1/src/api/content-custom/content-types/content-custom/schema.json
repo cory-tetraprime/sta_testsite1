@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "content_customs",
+  "info": {
+    "singularName": "content-custom",
+    "pluralName": "content-customs",
+    "displayName": "Inside Default",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Text_1": {
+      "type": "richtext"
+    },
+    "Text_2": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}

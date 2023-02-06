@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "article_statuses",
+  "info": {
+    "singularName": "article-status",
+    "pluralName": "article-statuses",
+    "displayName": "Article Status",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "status": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "minLength": 4
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
